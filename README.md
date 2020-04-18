@@ -7,7 +7,7 @@ A simple API to retrieve some quotes of the famous TV Show, Game of Thrones!
 
 ## Production host
 
-[https://got-quotes-api.herokuapp.com](https://got-quotes-api.herokuapp.com)
+[https://game-of-thrones-quotes.herokuapp.com](https://game-of-thrones-quotes.herokuapp.com)
 
 ## API
 
@@ -15,7 +15,7 @@ A simple API to retrieve some quotes of the famous TV Show, Game of Thrones!
 
 Get a random quote:
 
-> [https://got-quotes-api.herokuapp.com/v1/random](https://got-quotes-api.herokuapp.com/v1/random)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/random](https://game-of-thrones-quotes.herokuapp.com/v1/random)
 
 	{
 		"sentence": "If I fall, don't bring me back.",
@@ -34,7 +34,7 @@ Get a random quote:
 Returns `{number}` quotes.  
 `number` parameter is optional. By default, one quote is returned.
 
-> [https://got-quotes-api.herokuapp.com/v1/random/3](https://got-quotes-api.herokuapp.com/v1/random/3)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/random/3](https://game-of-thrones-quotes.herokuapp.com/v1/random/3)
 
 	[
 	  {
@@ -75,7 +75,7 @@ Returns `{number}` quotes.
 Returns quotes for a character *(how to find this information explained below)*.  
 `number` parameter is optional. By default, all quotes from the character are returned.
 
-> [https://got-quotes-api.herokuapp.com/v1/author/tyrion/2](https://got-quotes-api.herokuapp.com/v1/author/tyrion/2)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/author/tyrion/2](https://game-of-thrones-quotes.herokuapp.com/v1/author/tyrion/2)
 
 	[
 		{
@@ -105,7 +105,7 @@ Returns quotes for a character *(how to find this information explained below)*.
 
 Returns the list of houses with their members.
 
-> [https://got-quotes-api.herokuapp.com/v1/houses](https://got-quotes-api.herokuapp.com/v1/houses)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/houses](https://game-of-thrones-quotes.herokuapp.com/v1/houses)
 
 	[
 		{
@@ -136,7 +136,7 @@ Returns the list of houses with their members.
 Returns the house's details.  
 `name` parameter is the house's diminutive *(how to find this information explained below)*.
 
-> [https://got-quotes-api.herokuapp.com/v1/house/stark](https://got-quotes-api.herokuapp.com/v1/house/stark)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/house/stark](https://game-of-thrones-quotes.herokuapp.com/v1/house/stark)
 
 	[
 		{
@@ -157,7 +157,7 @@ Returns the house's details.
 
 Returns the list of characters with their quotes.
 
-> [https://got-quotes-api.herokuapp.com/v1/characters](https://got-quotes-api.herokuapp.com/v1/characters)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/characters](https://game-of-thrones-quotes.herokuapp.com/v1/characters)
 
 	[
 		{
@@ -191,7 +191,7 @@ Returns the list of characters with their quotes.
 Returns the character's details.  
 `name` parameter is the character's diminutive *(how to find this information explained below)*.
 
-> [https://got-quotes-api.herokuapp.com/v1/character/jon](https://got-quotes-api.herokuapp.com/v1/character/jon)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/character/jon](https://game-of-thrones-quotes.herokuapp.com/v1/character/jon)
 
 	[
 		{
@@ -245,7 +245,7 @@ The diminutives are: jon, sansa, ned, etc...
 
 ## Docker
 
-You can find the Dockerfile [here](https://github.com/shevabam/dockerfiles/tree/master/game-of-thrones-quotes) and on [Docker Hub](https://hub.docker.com/r/shevabam/game-of-thrones-quotes/).
+You can find the Dockerfile [here](https://github.com/shevabam/dockerfiles/tree/master/game-of-thrones-quotes-api) and on [Docker Hub](https://hub.docker.com/r/shevabam/game-of-thrones-quotes-api/).
 
 
 ## Contributing
