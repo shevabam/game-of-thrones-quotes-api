@@ -1,0 +1,31 @@
+{
+  "name": "game-of-thrones-quotes-api",
+  "version": "1.0.0",
+  "description": "An API for retrieving some Game of Thrones quotes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shevabam/game-of-thrones-quotes-api"
+  },
+  "keywords": [
+    "game",
+    "thrones",
+    "got",
+    "game of thrones",
+    "quotes",
+    "api",
+    "tvshow"
+  ],
+  "author": "ShevAbam",
+  "bugs": {
+    "url": "https://github.com/shevabam/game-of-thrones-quotes-api/issues"
+  },
+  "homepage": "https://gameofthronesquotes.xyz/",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-yaml": "^3.13.1"
+  }
+}
