@@ -1,6 +1,6 @@
 {
   "name": "game-of-thrones-quotes-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An API for retrieving some Game of Thrones quotes",
   "repository": {
     "type": "git",

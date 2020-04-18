@@ -218,12 +218,20 @@ function formatQuote(randomQuote)
 {
     var quote = {};
 
+    var house_name = null;
+    var house_slug = null;
+
+    if (datas.characters[randomQuote.character].house !== null) {
+        house_name = datas.houses[datas.characters[randomQuote.character].house].name;
+        house_slug = datas.characters[randomQuote.character].house
+    }
+
     quote.sentence = randomQuote.sentence;
     quote.character = {
         name: datas.characters[randomQuote.character].name,
         house: {
-            name: datas.houses[datas.characters[randomQuote.character].house].name,
-            slug: datas.characters[randomQuote.character].house
+            name: house_name,
+            slug: house_slug
         }
     };
 
