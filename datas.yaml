@@ -17,6 +17,8 @@ houses:
     name: House Bolton of the Dreadfort
   baelish:
     name: House Baelish of Harrenhal
+  tyrell:
+    name: House Tyrell of Highgarden
 
 characters:
   jon:
@@ -81,6 +83,12 @@ characters:
     house: 
   melisandre:
     name: Melisandre
+    house: 
+  olenna:
+    name: Olenna Tyrell
+    house: tyrell
+  mance:
+    name: Mance Rayder
     house: 
 
 quotes:
@@ -288,3 +296,15 @@ quotes:
   -
     character: melisandre
     sentence: The night is dark and full of terrors.
+  -
+    character: arya
+    sentence: Fear cuts deeper than swords.
+  -
+    character: olenna
+    sentence: The world is overflowing with horrible things, but they’re all a tray of cakes next to death.
+  -
+    character: mance
+    sentence: The freedom to make my own mistakes was all I ever wanted.
+  -
+    character: baelish
+    sentence: It doesn’t matter what we want. Once we get it, then we want something else.
