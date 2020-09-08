@@ -23,6 +23,7 @@ Get a random quote:
 		"sentence": "If I fall, don't bring me back.",
 		"character": {
 			"name": "Jon Snow",
+			"slug": "jon",
 			"house": {
 				"name": "House Stark of Winterfell";
 				"slug": "stark"
@@ -43,6 +44,7 @@ Returns `{number}` quotes.
 		"sentence": "If I fall, don't bring me back.",
 		"character": {
 			"name": "Jon Snow",
+			"slug": "jon",
 			"house": {
 				"name": "House Stark of Winterfell",
 				"slug": "stark"
@@ -53,6 +55,7 @@ Returns `{number}` quotes.
 		"sentence": "The man who passes the sentence should swing the sword.",
 		"character": {
 			"name": "Ned Stark",
+			"slug": "ned",
 			"house": {
 				"name": "House Stark of Winterfell",
 				"slug": "stark"
@@ -63,6 +66,7 @@ Returns `{number}` quotes.
 		"sentence": "I am your son. I have always been your son.",
 		"character": {
 			"name": "Tyrion Lannister",
+			"slug": "tyrion",
 			"house": {
 				"name": "House Lannister of Casterly Rock",
 				"slug": "lannister"
@@ -84,6 +88,7 @@ Returns quotes for a character *(how to find this information explained below)*.
 			"sentence": "It's not easy being drunk all the time. Everyone would do it, if it were easy.",
 			"character": {
 				"name": "Tyrion Lannister",
+				"slug": "tyrion",
 				"house": {
 					"name": "House Lannister of Casterly Rock",
 					"slug": "lannister"
@@ -94,6 +99,7 @@ Returns quotes for a character *(how to find this information explained below)*.
 			"sentence": "No matter who you are, no matter how strong you are, sooner or later, you’ll face circumstances beyond your control.",
 			"character": {
 				"name": "Tyrion Lannister",
+				"slug": "tyrion",
 				"house": {
 					"name": "House Lannister of Casterly Rock",
 					"slug": "lannister"
@@ -114,21 +120,21 @@ Returns the list of houses with their members.
 			"slug": "stark",
 			"name": "House Stark of Winterfell",
 			"members": [
-				{"name": "Jon Snow"},
-				{"name": "Sansa Stark"},
-				{"name": "Ned Stark"},
-				{"name": "Arya Stark"},
-				{"name": "Bran Stark"}
+				{"name": "Jon Snow", "slug": "jon"},
+				{"name": "Sansa Stark", "slug": "sansa"},
+				{"name": "Ned Stark", "slug": "ned"},
+				{"name": "Arya Stark", "slug": "arya"},
+				{"name": "Bran Stark", "slug": "bran"}
 			]
 		},
 		{
 			"slug": "lannister",
 			"name": "House Lannister of Casterly Rock",
 			"members": [
-				{"name": "Jaime Lannister"},
-				{"name": "Tyrion Lannister"},
-				{"name": "Cersei Lannister"},
-				{"name": "Tywin Lannister"}
+				{"name": "Jaime Lannister", "slug": "jaime"},
+				{"name": "Tyrion Lannister", "slug": "tyrion"},
+				{"name": "Cersei Lannister", "slug": "cersei"},
+				{"name": "Tywin Lannister", "slug": "tywin"}
 			]
 		}
 	]
@@ -145,11 +151,11 @@ Returns the house's details.
 			"slug": "stark",
 			"name": "House Stark of Winterfell",
 			"members": [
-				{"name": "Jon Snow"},
-				{"name": "Sansa Stark"},
-				{"name": "Ned Stark"},
-				{"name": "Arya Stark"},
-				{"name": "Bran Stark"}
+				{"name": "Jon Snow", "slug": "jon"},
+				{"name": "Sansa Stark", "slug": "sansa"},
+				{"name": "Ned Stark", "slug": "ned"},
+				{"name": "Arya Stark", "slug": "arya"},
+				{"name": "Bran Stark", "slug": "bran"}
 			]
 		}
 	]
@@ -164,6 +170,7 @@ Returns the list of characters with their quotes.
 	[
 		{
 			"name": "Jon Snow",
+			"slug": "jon",
 			"house": {
 				"slug": "stark",
 				"name": "House Stark of Winterfell"
@@ -177,6 +184,7 @@ Returns the list of characters with their quotes.
 		},
 		{
 			"name": "Ned Stark",
+			"slug": "ned",
 			"house": {
 				"slug": "stark",
 				"name": "House Stark of Winterfell"
@@ -215,7 +223,8 @@ Returns the character's details.
 
 ### How to find the diminutives of the houses and characters?
 
-To find the diminutives of the houses and characters to be used in certain URLs, open the file `datas.yaml`.
+The diminutives of houses and characters are present in the "slug" entry in the results.  
+You can also find them in the `datas.yaml` file.
 
 For houses:
 

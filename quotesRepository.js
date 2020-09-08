@@ -136,7 +136,8 @@ try {
 
                 charactersList[i].forEach(function(member){
                     var member_datas = {
-                        name: characters[member].name
+                        name: characters[member].name,
+                        slug: member
                     };
 
                     members.push(member_datas);
@@ -191,6 +192,7 @@ try {
 
                 var character = {
                     name: charactersList[i].name,
+                    slug: i,
                     house: character_house,
                     quotes: character_quotes
                 };
@@ -229,6 +231,7 @@ function formatQuote(randomQuote)
     quote.sentence = randomQuote.sentence;
     quote.character = {
         name: datas.characters[randomQuote.character].name,
+        slug: randomQuote.character,
         house: {
             name: house_name,
             slug: house_slug
