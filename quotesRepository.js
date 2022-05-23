@@ -1,12 +1,9 @@
 'use strict';
 
 
-const yaml = require('js-yaml');
-const fs = require('fs');
-
+var datas = require('./datas.json');
 
 try {
-    var datas = yaml.safeLoad(fs.readFileSync('datas.yaml', 'utf8'));
 
     module.exports = {
         getRandom: function getRandom(numberOfQuotes) {
