@@ -9,9 +9,7 @@ A simple API to retrieve some quotes of the famous TV Show, Game of Thrones!
 
 ## Production host
 
-🆕 [https://api.gameofthronesquotes.xyz](https://api.gameofthronesquotes.xyz)
-
-OLD : [https://game-of-thrones-quotes.herokuapp.com](https://game-of-thrones-quotes.herokuapp.com)
+[https://game-of-thrones-quotes.herokuapp.com](https://game-of-thrones-quotes.herokuapp.com)
 
 ## API
 
@@ -19,7 +17,7 @@ OLD : [https://game-of-thrones-quotes.herokuapp.com](https://game-of-thrones-quo
 
 Get a random quote:
 
-> [https://api.gameofthronesquotes.xyz/v1/random](https://api.gameofthronesquotes.xyz/v1/random)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/random](https://game-of-thrones-quotes.herokuapp.com/v1/random)
 
     {
         "sentence": "If I fall, don't bring me back.",
@@ -39,7 +37,7 @@ Get a random quote:
 Returns `{number}` quotes.  
 `number` parameter is optional. By default, one quote is returned.
 
-> [https://api.gameofthronesquotes.xyz/v1/random/3](https://api.gameofthronesquotes.xyz/v1/random/3)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/random/3](https://game-of-thrones-quotes.herokuapp.com/v1/random/3)
 
     [
       {
@@ -83,7 +81,7 @@ Returns `{number}` quotes.
 Returns quotes for a character *(how to find this information explained below)*.  
 `number` parameter is optional. By default, all quotes from the character are returned.
 
-> [https://api.gameofthronesquotes.xyz/v1/author/tyrion/2](https://api.gameofthronesquotes.xyz/v1/author/tyrion/2)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/author/tyrion/2](https://game-of-thrones-quotes.herokuapp.com/v1/author/tyrion/2)
 
     [
         {
@@ -115,7 +113,7 @@ Returns quotes for a character *(how to find this information explained below)*.
 
 Returns the list of houses with their members.
 
-> [https://api.gameofthronesquotes.xyz/v1/houses](https://api.gameofthronesquotes.xyz/v1/houses)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/houses](https://game-of-thrones-quotes.herokuapp.com/v1/houses)
 
     [
         {
@@ -146,7 +144,7 @@ Returns the list of houses with their members.
 Returns the house's details.  
 `name` parameter is the house's diminutive *(how to find this information explained below)*.
 
-> [https://api.gameofthronesquotes.xyz/v1/house/stark](https://api.gameofthronesquotes.xyz/v1/house/stark)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/house/stark](https://game-of-thrones-quotes.herokuapp.com/v1/house/stark)
 
     [
         {
@@ -167,7 +165,7 @@ Returns the house's details.
 
 Returns the list of characters with their quotes.
 
-> [https://api.gameofthronesquotes.xyz/v1/characters](https://api.gameofthronesquotes.xyz/v1/characters)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/characters](https://game-of-thrones-quotes.herokuapp.com/v1/characters)
 
     [
         {
@@ -203,7 +201,7 @@ Returns the list of characters with their quotes.
 Returns the character's details.  
 `name` parameter is the character's diminutive *(how to find this information explained below)*.
 
-> [https://api.gameofthronesquotes.xyz/v1/character/jon](https://api.gameofthronesquotes.xyz/v1/character/jon)
+> [https://game-of-thrones-quotes.herokuapp.com/v1/character/jon](https://game-of-thrones-quotes.herokuapp.com/v1/character/jon)
 
     [
         {
