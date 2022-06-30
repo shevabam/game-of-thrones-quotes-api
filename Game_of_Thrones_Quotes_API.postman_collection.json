@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "d776a60a-2fb9-48e4-b847-7f955e92ec4f",
+		"name": "Game of Thrones Quotes API",
+		"description": "# Game of Thrones Quotes API\n\nA simple API to retrieve some quotes of the famous TV Show, Game of Thrones!\n\n🌐 Website and demo: [https://gameofthronesquotes.xyz/](https://gameofthronesquotes.xyz/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Quotes",
+			"item": [
+				{
+					"name": "Get one random quote",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.gameofthronesquotes.xyz/v1/random",
+							"protocol": "https",
+							"host": [
+								"api",
+								"gameofthronesquotes",
+								"xyz"
+							],
+							"path": [
+								"v1",
+								"random"
+							]
+						},
+						"description": "Get a random quote"
+					},
+					"response": []
+				},
+				{
+					"name": "Get {{number}} random quotes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.gameofthronesquotes.xyz/v1/random/{{number}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"gameofthronesquotes",
+								"xyz"
+							],
+							"path": [
+								"v1",
+								"random",
+								"{{number}}"
+							]
+						},
+						"description": "Returns an array with {number} quotes e.g. `GET /v1/quotes/5`."
+					},
+					"response": []
+				},
+				{
+					"name": "Get quotes from a character",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.gameofthronesquotes.xyz/v1/author/tyrion/{{number}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"gameofthronesquotes",
+								"xyz"
+							],
+							"path": [
+								"v1",
+								"author",
+								"tyrion",
+								"{{number}}"
+							]
+						},
+						"description": "Returns quotes for a character.\n\n`number` parameter is optional. By default, all quotes from the character are returned"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Houses",
+			"item": [
+				{
+					"name": "List of houses with their members",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.gameofthronesquotes.xyz/v1/houses",
+							"protocol": "https",
+							"host": [
+								"api",
+								"gameofthronesquotes",
+								"xyz"
+							],
+							"path": [
+								"v1",
+								"houses"
+							]
+						},
+						"description": "Returns the list of houses with their members"
+					},
+					"response": []
+				},
+				{
+					"name": "Get house's details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.gameofthronesquotes.xyz/v1/house/lannister",
+							"protocol": "https",
+							"host": [
+								"api",
+								"gameofthronesquotes",
+								"xyz"
+							],
+							"path": [
+								"v1",
+								"house",
+								"lannister"
+							]
+						},
+						"description": "Returns the house's details.\n`name` parameter is the house's diminutive"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Characters",
+			"item": [
+				{
+					"name": "List of characters with their quotes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.gameofthronesquotes.xyz/v1/characters",
+							"protocol": "https",
+							"host": [
+								"api",
+								"gameofthronesquotes",
+								"xyz"
+							],
+							"path": [
+								"v1",
+								"characters"
+							]
+						},
+						"description": "Returns the list of characters with their quotes."
+					},
+					"response": []
+				},
+				{
+					"name": "Get character's details with his quotes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.gameofthronesquotes.xyz/v1/character/jon",
+							"protocol": "https",
+							"host": [
+								"api",
+								"gameofthronesquotes",
+								"xyz"
+							],
+							"path": [
+								"v1",
+								"character",
+								"jon"
+							]
+						},
+						"description": "Returns the character's details.\n`name` parameter is the character's diminutive"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "number",
+			"value": "5"
+		}
+	]
+}

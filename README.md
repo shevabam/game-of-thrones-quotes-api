@@ -277,6 +277,11 @@ For characters:
 The diminutives are: jon, sansa, ned, etc...
 
 
+## Postman
+
+You can integrate the API into Postman thanks to the [Postman collection](Game_of_Thrones_Quotes_API.postman_collection.json) available on the repository.
+
+
 ## Docker
 
 You can find the Dockerfile [here](https://github.com/shevabam/dockerfiles/tree/master/game-of-thrones-quotes-api) and on [Docker Hub](https://hub.docker.com/r/shevabam/game-of-thrones-quotes-api/).
