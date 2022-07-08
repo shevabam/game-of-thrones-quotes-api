@@ -123,6 +123,10 @@
     "mance": {
       "name": "Mance Rayder",
       "house": null
+    },
+    "ygritte": {
+      "name": "Ygritte",
+      "house": null
     }
   },
   "quotes": [
@@ -413,6 +417,10 @@
     {
       "character": "baelish",
       "sentence": "It doesn’t matter what we want. Once we get it, then we want something else."
+    },
+    {
+      "character": "ygritte",
+      "sentence": "You know nothing, Jon Snow."
     }
   ]
 }
