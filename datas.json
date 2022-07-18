@@ -44,6 +44,10 @@
       "name": "Eddard \"Ned\" Stark",
       "house": "stark"
     },
+    "catelyn": {
+      "name": "Catelyn Stark",
+      "house": "stark"
+    },
     "jaime": {
       "name": "Jaime Lannister",
       "house": "lannister"
@@ -62,6 +66,10 @@
     },
     "aerys": {
       "name": "Aerys II Targaryen",
+      "house": "targaryen"
+    },
+    "aemon": {
+      "name": "Aemon Targaryen",
       "house": "targaryen"
     },
     "daenerys": {
@@ -149,6 +157,14 @@
     {
       "character": "ned",
       "sentence": "I grew up with soldiers. I learned how to die a long time ago."
+    },
+    {
+      "character": "ned",
+      "sentence": "A ruler who hides behind paid executioners soon forgets what death is."
+    },
+    {
+      "character": "ned",
+      "sentence": "When the snows fall and the white winds blow, the lone wolf dies but the pack survives"
     },
     {
       "character": "jon",
@@ -252,7 +268,7 @@
     },
     {
       "character": "tyrion",
-      "sentence": "Well, my brother has his sword, and I have my mind, and a mind needs books like a sword needs a whetstone."
+      "sentence": "Well, my brother has his sword, and I have my mind, and a mind needs books like a sword needs a whetstone, if it's to keep its edge."
     },
     {
       "character": "tyrion",
@@ -277,6 +293,26 @@
     {
       "character": "tyrion",
       "sentence": "I'm a constant disappointment to my own father, and I have learned to live with it."
+    },
+    {
+      "character": "tyrion",
+      "sentence": "Death is so terribly final, while life is full of possibilities."
+    },
+    {
+      "character": "tyrion",
+      "sentence": "Why is it that when one man builds a wall, the next man immediately needs to know what's on the other side?"
+    },
+    {
+      "character": "tyrion",
+      "sentence": "People often claim to hunger for truth, but seldom like the taste when it's served up."
+    },
+    {
+      "character": "tyrion",
+      "sentence": "When you tear out a man's tongue, you are not proving him a liar, you're only telling the world that you fear what he might say"
+    },
+    {
+      "character": "tyrion",
+      "sentence": "Many underestimated you. Most of them are dead now."
     },
     {
       "character": "cersei",
@@ -337,6 +373,10 @@
     {
       "character": "daenerys",
       "sentence": "All men must die, but we are not men."
+    },
+    {
+      "character": "aemon",
+      "sentence": "We are only human, and the gods have fashioned us for love. That is our great glory, and our great tragedy."
     },
     {
       "character": "ramsay",
@@ -421,6 +461,14 @@
     {
       "character": "ygritte",
       "sentence": "You know nothing, Jon Snow."
+    },
+    {
+      "character": "ygritte",
+      "sentence": "Every man must die, Jon Snow. but first, he must live"
+    },
+    {
+      "character": "catelyn",
+      "sentence": "Laughter is poison to fear."
     }
   ]
 }
