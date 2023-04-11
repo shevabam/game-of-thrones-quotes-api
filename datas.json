@@ -469,6 +469,50 @@
     {
       "character": "catelyn",
       "sentence": "Laughter is poison to fear."
+    },
+    {
+      "character": "tyrion",
+      "sentence": "I have a lot of experience in losing."
+    },
+    {
+      "character": "catelyn",
+      "sentence": "All this horror that has come to my family, it's all because I couldn't love a motherless child."
+    },
+    {
+      "character": "sansa",
+      "sentence": "I am a Stark of Winterfell, this is my home. And you can't frighten me."
+    },
+    {
+      "character": "bran",
+      "sentence": "Can a man still be brave if he's afraid? That is the only time a man can be brave."
+    },
+    {
+      "character": "tyrion",
+      "sentence": "I'm guilty of being a dwarf."
+    },
+    {
+      "character": "olenna",
+      "sentence": "I was told you were drunk, impertinent and thoroughly debauched. You can imagine my disappointment at finding nothing but a browbeaten bookkeeper."
+    },
+    {
+      "character": "jaime",
+      "sentence": "There are no men like me. Only me."
+    },
+    {
+      "character": "cersei",
+      "sentence": "You love your children. It's why you'll never win."
+    },
+    {
+      "character": "cersei",
+      "sentence": "The more people you love, the weaker you are."
+    },
+    {
+      "character": "cersei",
+      "sentence": "The only way to keep your people loyal is to make certain they fear you more than they do the enemy."
+    },
+    {
+      "character": "cersei",
+      "sentence": "I don't choose sides. I'm the queen of the Seven Kingdoms."
     }
   ]
 }
