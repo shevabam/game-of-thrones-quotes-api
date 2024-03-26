@@ -29,6 +29,12 @@
     },
     "tyrell": {
       "name": "House Tyrell of Highgarden"
+    },
+    "mormont": {
+      "name": "House Mormont of Bear Island"
+    },
+    "martell": {
+      "name": "House Martell of Sunspear"
     }
   },
   "characters": {
@@ -135,6 +141,42 @@
     "ygritte": {
       "name": "Ygritte",
       "house": null
+    },
+    "jaqen": {
+      "name": "Jaqen H'ghar",
+      "house": null
+    },
+    "daario": {
+      "name": "Daario Naharis",
+      "house": null
+    },
+    "joer": {
+      "name": "Joer Mormont",
+      "house": "mormont"
+    },
+    "lyanna": {
+      "name": "Lyanna Mormont",
+      "house": "mormont"
+    },
+    "oberyn": {
+      "name": "Oberyn Martell",
+      "house": "martell"
+    },
+    "robb": {
+      "name": "Robb Stark",
+      "house": "stark"
+    },
+    "qyburn": {
+      "name": "Qyburn",
+      "house": null
+    },
+    "hodor": {
+      "name": "Hodor",
+      "house": null
+    },
+    "davos": {
+      "name": "Davos Seaworth",
+      "house": null
     }
   },
   "quotes": [
@@ -185,6 +227,14 @@
     {
       "character": "jon",
       "sentence": "The war is not over. And I promise you, friend, the true enemy won't wait out the storm. He brings the storm."
+    },
+    {
+      "character": "jon",
+      "sentence": " I swore a vow to the Night's Watch. If I don't take my own word seriously, what sort of \"Lord of Winterfell\" would I be?"
+    },
+    {
+      "character": "jon",
+      "sentence": "Thousands of men don't need to die. Only one of us. Let's end this the old way. You against me."
     },
     {
       "character": "sansa",
@@ -315,6 +365,18 @@
       "sentence": "Many underestimated you. Most of them are dead now."
     },
     {
+      "character": "tyrion",
+      "sentence": "I did not kill Joffrey, but I wish that I had! Watching your vicious bastard die gave me more relief than a thousand lying whores!"
+    },
+    {
+      "character": "tyrion",
+      "sentence": "I wish I was the monster you think I am! I wish I had enough poison for the whole pack of you! I would gladly give my life to watch you all swallow it!"
+    },
+    {
+      "character": "tyrion",
+      "sentence": "It's hard to put a leash on a dog once you've put a crown on its head."
+    },
+    {
       "character": "cersei",
       "sentence": "When you play the game of thrones, you win or you die. There is no middle ground."
     },
@@ -343,6 +405,10 @@
       "sentence": "I don't care about checking my worst impulses. I don't care about making the world a better place. Hang the world."
     },
     {
+      "character": "cersei",
+      "sentence": "Power, is power"
+    },
+    {
       "character": "tywin",
       "sentence": "A lion does not concern himself with the opinion of sheep."
     },
@@ -359,8 +425,20 @@
       "sentence": "I need you to become the man you were always meant to be. Not next year, not tomorrow, now."
     },
     {
+      "character": "tywin",
+      "sentence": "If another house can seize one of our own and hold him captive with impunity, we are no longer a house to be feared."
+    },
+    {
+      "character": "tywin",
+      "sentence": "He's a Lannister! Maybe the lowest of the Lannisters, but he's one of us. And everyday that he remains a prisoner, the less our name commands respect."
+    },
+    {
       "character": "joffrey",
       "sentence": "Everyone is mine to torment."
+    },
+    {
+      "character": "joffrey",
+      "sentence": "Say what you will about the Targaryens, they were conquerors."
     },
     {
       "character": "daenerys",
@@ -373,6 +451,18 @@
     {
       "character": "daenerys",
       "sentence": "All men must die, but we are not men."
+    },
+    {
+      "character": "daenerys",
+      "sentence": "I am Daenerys Stormborn of the Blood of old Valyria and I will take what is mine, with fire and blood I will take it"
+    },
+    {
+      "character": "daenerys",
+      "sentence": "Which war was won without deceit and mass murder?"
+    },
+    {
+      "character": "daenerys",
+      "sentence": "Dracarys!"
     },
     {
       "character": "aemon",
@@ -399,6 +489,10 @@
       "sentence": "I was nothing at all. And when you're nothing at all, there's no reason to be afraid."
     },
     {
+      "character": "samwell",
+      "sentence": "Yes, well I suppose life is irregular"
+    },
+    {
       "character": "varys",
       "sentence": "The storms come and go, the big fish eat the little fish and I keep on paddling."
     },
@@ -409,6 +503,14 @@
     {
       "character": "brienne",
       "sentence": "All I ever wanted was to fight for a lord I believed in. But the good lords are dead and the rest are monsters."
+    },
+    {
+      "character": "brienne",
+      "sentence": "All my life men like you have sneered at me, and all my life I've been knocking men like you into the dust."
+    },
+    {
+      "character": "brienne",
+      "sentence": "I will shield your back and keep your counsel, and give my life for yours if need be."
     },
     {
       "character": "aerys",
@@ -451,6 +553,10 @@
       "sentence": "The world is overflowing with horrible things, but they’re all a tray of cakes next to death."
     },
     {
+      "character": "olenna",
+      "sentence": "You're a dragon. Be a dragon."
+    },
+    {
       "character": "mance",
       "sentence": "The freedom to make my own mistakes was all I ever wanted."
     },
@@ -483,6 +589,14 @@
       "sentence": "I am a Stark of Winterfell, this is my home. And you can't frighten me."
     },
     {
+      "character": "sansa",
+      "sentence": "When the snows fall and the white winds blow, the lone wolf dies, but the pack survives."
+    },
+    {
+      "character": "sansa",
+      "sentence": "Only a fool would trust Littlefinger."
+    },
+    {
       "character": "bran",
       "sentence": "Can a man still be brave if he's afraid? That is the only time a man can be brave."
     },
@@ -513,6 +627,42 @@
     {
       "character": "cersei",
       "sentence": "I don't choose sides. I'm the queen of the Seven Kingdoms."
+    },
+    {
+      "character": "jaqen",
+      "sentence": "If the day comes when you must find me again, just give that coin to any man from Braavos and say these words to him: \"Valar morghulis.\""
+    },
+    {
+      "character": "daario",
+      "sentence": "You understood fear once long ago, but you've forgotten what it means. Someone who's forgotten fear, has forgotten how to hide."
+    },
+    {
+      "character": "joer",
+      "sentence": "You want to lead one day? Then learn how to follow"
+    },
+    {
+      "character": "lyanna",
+      "sentence": "The North remembers! We know no king but the King in the North whose name is Stark."
+    },
+    {
+      "character": "oberyn",
+      "sentence": "'Tis a big and beautiful world. Most of us live and die in the same corner where we were born and never get to see any of it. I don't want to be most of us."
+    },
+    {
+      "character": "robb",
+      "sentence": "All men should keep their word, kings most of all."
+    },
+    {
+      "character": "qyburn",
+      "sentence": "But sometimes before we can usher in the new, the old must be put to rest."
+    },
+    {
+      "character": "hodor",
+      "sentence": "Hold the door."
+    },
+    {
+      "character": "davos",
+      "sentence": "I may not know the north, but I know men. They're more or less the same in any corner of the world and even the bravest of them don't want to see their wives and children skinned for a lost cause."
     }
   ]
 }
