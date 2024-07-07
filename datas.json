@@ -433,6 +433,10 @@
       "sentence": "He's a Lannister! Maybe the lowest of the Lannisters, but he's one of us. And everyday that he remains a prisoner, the less our name commands respect."
     },
     {
+      "character": "tywin",
+      "sentence": "You are being counseled at this very moment."
+    },
+    {
       "character": "joffrey",
       "sentence": "Everyone is mine to torment."
     },
@@ -485,12 +489,20 @@
       "sentence": "It's better to be cruel than weak."
     },
     {
+      "character": "theon",
+      "sentence": "It's always seemed there was an impossible choice I had to make...Stark or Greyjoy."
+    },
+    {
       "character": "samwell",
       "sentence": "I was nothing at all. And when you're nothing at all, there's no reason to be afraid."
     },
     {
       "character": "samwell",
       "sentence": "Yes, well I suppose life is irregular"
+    },
+    {
+      "character": "samwell",
+      "sentence": "Whilst Lord Janos was hiding with the women and children, Jon Snow was leading."
     },
     {
       "character": "varys",
@@ -647,6 +659,14 @@
     {
       "character": "oberyn",
       "sentence": "'Tis a big and beautiful world. Most of us live and die in the same corner where we were born and never get to see any of it. I don't want to be most of us."
+    },
+    {
+      "character": "oberyn",
+      "sentence": "Tell your father I'm here. And tell him the Lannisters aren't the only ones who pay their debts."
+    },
+    {
+      "character": "oberyn",
+      "sentence": "You're not a golden lion. You're just a pink little man, who is far too slow on the draw. "
     },
     {
       "character": "robb",
