@@ -35,6 +35,9 @@
     },
     "martell": {
       "name": "House Martell of Sunspear"
+    },
+    "clegane": {
+      "name": "House Clegane of Clegane's Keep"
     }
   },
   "characters": {
@@ -177,6 +180,10 @@
     "davos": {
       "name": "Davos Seaworth",
       "house": null
+    },
+    "sandor": {
+      "name": "Sandor Clegane",
+      "house": "clegane"
     }
   },
   "quotes": [
@@ -683,6 +690,42 @@
     {
       "character": "davos",
       "sentence": "I may not know the north, but I know men. They're more or less the same in any corner of the world and even the bravest of them don't want to see their wives and children skinned for a lost cause."
+    },
+    {
+      "character": "sandor",
+      "sentence": "Fuck the king."
+    },
+    {
+      "character": "sandor",
+      "sentence": "You're shit at dying you know that?."
+    },
+    {
+      "character": "sandor",
+      "sentence": "How did a mad fucker like you live this long?"
+    },
+    {
+      "character": "sandor",
+      "sentence": "A hound will die for you, but never lie to you."
+    },
+    {
+      "character": "sandor",
+      "sentence": "Aye, there's a reason. I'm a big fucker and I'm tough to kill."
+    },
+    {
+      "character": "sandor",
+      "sentence": "Hate's as good a thing as any to keep a person going. Better than most. We come across my brother, maybe we can both cross a name off our list."
+    },
+    {
+      "character": "sandor",
+      "sentence": "If you can't protect yourself, die and get out of the way of those who can. Sharp steel and strong arms rule this world, don't ever believe any different."
+    },
+    {
+      "character": "sandor",
+      "sentence": "Your lips are moving and you're complaining about something. That's whinging. This one's been killed six times. (points to Beric) You don't hear him bitching about it."
+    },
+    {
+      "character": "sandor",
+      "sentence": "Thoros isn't here anymore, so I hope you're not about to give a sermon. Because if you are, the Lord of Light's gonna wonder why he brought you back 19 times just to watch you die when I chuck you over this fucking wall."
     }
   ]
 }
