@@ -84,6 +84,10 @@
       "name": "Daenerys Targaryen",
       "house": "targaryen"
     },
+    "daemon": {
+      "name": "Daemon Targaryen (Rouge Prince)",
+      "house": "targaryen"
+    },
     "davos": {
       "name": "Davos Seaworth",
       "house": null
@@ -325,6 +329,22 @@
     {
       "character": "daenerys",
       "sentence": "All men must die, but we are not men."
+    },
+    {
+      "character": "daemon",
+      "sentence": "You cannot live your life in fear, or you will forsake the best parts of it."
+    },
+    {
+      "character": "daemon",
+      "sentence": "Dreams didn’t make us kings. Dragons did."
+    },
+    {
+      "character": "daemon",
+      "sentence": "You cannot live your life in fear, or you will forsake the best parts of it."
+    },
+     {
+      "character": "daemon",
+      "sentence": "He can keep his tounge."
     },
     {
       "character": "daenerys",
