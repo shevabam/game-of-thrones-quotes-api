@@ -7,16 +7,16 @@ const quotesRepository = require('./quotesRepository');
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.all('*', function(req, res, next) {
+app.all('/*splat', function(req, res, next) {
     res.set('Access-Control-Allow-Origin', '*');
     next();
 });
 
-app.get('/v1/random/:num?', function(req, res) {
+app.get('/v1/random{/:num}', function(req, res) {
     res.send(quotesRepository.getRandom(req.params.num || 1));
 });
 
-app.get('/v1/author/:name/:num?', function(req, res) {
+app.get('/v1/author/:name{/:num}', function(req, res) {
     res.send(quotesRepository.getByAuthor(req.params.name, req.params.num || 1));
 });
 
